@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="158mm"
+   height="61.999996mm"
+   viewBox="0 0 158 61.999996"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="timeline.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="3.3549523"
+     inkscape:cx="361.55507"
+     inkscape:cy="40.686122"
+     inkscape:window-width="3774"
+     inkscape:window-height="2091"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid3"
+       units="mm"
+       originx="-40.000001"
+       originy="-133"
+       spacingx="0.99999998"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-40,-133)">
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Triangle)"
+       d="M 46.000001,165 190,164.99999"
+       id="path5"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 60.000001,163 v 4"
+       id="path6"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 112.5,163 v 4"
+       id="path7"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 165,163 v 4"
+       id="path8"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+       x="56"
+       y="173"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+         x="56"
+         y="173">2024</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+       x="109"
+       y="172"
+       id="text8-4"><tspan
+         sodipodi:role="line"
+         id="tspan8-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+         x="109"
+         y="172">2025</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52777px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';writing-mode:lr-tb;direction:ltr;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+       x="161"
+       y="172"
+       id="text8-5"><tspan
+         sodipodi:role="line"
+         id="tspan8-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+         x="161"
+         y="172">2026</tspan></text>
+    <g
+       id="layer1-5"
+       transform="translate(-2.2469416,-26.685136)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+         x="56"
+         y="173"
+         id="text8-7"><tspan
+           sodipodi:role="line"
+           id="tspan8-4"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="173">Brandon Liu</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="177.57988"
+           id="tspan10">nlnet grant</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="182.15974"
+           id="tspan11">Protomaps Basemap</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+       x="105.71175"
+       y="148.41907"
+       id="text12"><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.765"
+         x="105.71175"
+         y="148.41907"
+         id="tspan13">nlnet grant</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.765"
+         x="105.71175"
+         y="152.82878"
+         id="tspan14">Mapterhorn Terrain</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+       x="154.75307"
+       y="148.38026"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="stroke-width:1.765"
+         x="154.75307"
+         y="148.38026">nlnet grant</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:1.765"
+         x="154.75307"
+         y="152.78998"
+         id="tspan16">Mapterhorn Imagery</tspan></text>
+    <g
+       id="layer1-9"
+       transform="translate(82.014113,7.4200481)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';writing-mode:lr-tb;direction:ltr;opacity:1;fill:#000000;stroke-width:1.765;paint-order:stroke fill markers"
+         x="56"
+         y="173"
+         id="text8-75"><tspan
+           sodipodi:role="line"
+           id="tspan8-3"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="173">8.8.2025</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="177.57988"
+           id="tspan17">first release</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52777px;font-family:'General Sans Variable';-inkscape-font-specification:'General Sans Variable, @wght=500';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:'wght' 500;fill:#000000;stroke-width:1.765"
+           x="56"
+           y="182.15974"
+           id="tspan18">terrain</tspan></text>
+    </g>
+  </g>
+</svg>

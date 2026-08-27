@@ -1,6 +1,6 @@
 ---
 theme: default
-paginate: true
+paginate: false
 backgroundColor: #fff
 style: |
   @font-face {
@@ -24,30 +24,71 @@ style: |
   p, li, code, td {
     font-family: 'Source Serif', serif;
   }
+
+  .footer-image {
+    position: absolute;
+    left: 10px;
+    bottom: -10px;
+    width: 300px;
+  }
 ---
 
-![bg left:40% 80%](https://marp.app/assets/marp.svg)
+![bg left:40% 80%](./mapterhorn-icon-grid.svg)
 
-# **Marp**
+## Mapterhorn Terrain and Imagery
 
-Markdown Presentation Ecosystem
+State of the Map Paris, 28.08.2026
 
-https://marp.app/
-
----
-
-# How to write slides
-
-Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
-
-```markdown
-# Slide 1
-
-foobar
+Oliver Wipfli
 
 ---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-# Slide 2
+## About Me
 
-foobar
-```
+- Oliver Wipfli
+- Based in Zürich, Switzerland
+- Consultant in Maps and Location Technology
+- Email: oliver.wipfli@leichteralsluft.ch
+- GitHub: https://github.com/wipfli
+- LinkedIn: oliver-wipfli-562258210
+
+![bg right:40% 60%](./oliver-wipfli.png)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## About Mapterhorn
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+- Aggregation of open terrain data
+- Global low-resolution coverage, local high-resolution lidar
+- For hillshading, contour lines, routing, u.s.w.
+- Soon also aerial imagery tiles
+
+![bg right:50% 80%](./jura.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## History
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 90%](./timeline-path.svg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Outline
+
+- Input
+- Aggregation
+- Output and Usage
+- Sponsors
+- Imagery
+- Contributing
+
+---
