@@ -37,7 +37,7 @@ style: |
 
 ## Mapterhorn Terrain and Imagery
 
-State of the Map Paris, 28.08.2026
+State of the Map Paris, Aug 28th, 2026
 
 Oliver Wipfli
 
@@ -84,12 +84,12 @@ Oliver Wipfli
 
 ## Outline
 
-- **Input**
+- Input
 - Aggregation
 - Output and Usage
-- Sponsors
-- Imagery
+- Funding and Governance
 - Contributing
+- Outlook
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -106,6 +106,18 @@ Oliver Wipfli
 <br /><br /><br />
 
 ![bg right:50% 80%](./coverage.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Input Normalization
+
+- Download from geoportal
+- Store LICENSE.pdf and metadata
+- Set consistent projection and NoData value
+- Store as GeoTiffs with unified compression and internal tiling
+- Pack GeoTiffs, license, and metadata into a tarball
+- Normalized tarballs available for download at <a href="https://mapterhorn.com/attribution">mapterhorn.com/attribution</a>
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -170,9 +182,22 @@ Oliver Wipfli
 ![bg 50%](./examples-path.svg)
 
 ---
+
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Sponsors
+## Users
+
+- Media
+  - ORF, SVT, zeit.de, FAZ, Seattle Times
+- Routing
+  - GraphHopper
+- Outdoor
+  - Komoot, outdooractive
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Funding
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
@@ -182,31 +207,57 @@ Oliver Wipfli
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Mapterhorn Imagery
+## Governance
 
-- Extend terrain pipeline to aerial imagery
-- Alternative to VersaTiles Imagery
-- Same producers, "same" format
-- Updates more frequently
-- Storage: 100+ TiB
-- Prepare for Petabytes...
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 50%](./governance.svg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Contributing
+
+- Share bug reports, suggest new or updated datasets
+  - https://github.com/mapterhorn/mapterhorn
+- Contribute financially
+  - https://opencollective.com/mapterhorn
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## What's Next
+
+- Aerial Imagery
+- Same producers, "same" format, same pipeline
+- Challenges: 
+  - 10x more data (100+ TiB)
+  - Updates more frequently
+- Maintenance, maintenance, maintenance
 
 <br /><br /><br />
 
 ![bg right:50% 80%](./imagery-path.svg)
 
----
+<!-- ---
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Initial Imagery Coverage
+## Imagery Coverage
 
-- Global 10 m coverage Sentinel-2
+- Global: Sentinel-2 imagery 10 m
 - High-resolution: 18 countries and regions
 - Focus first on Europe, then expand to JP, NZ, US, CA, etc...
 - First release still in 2026
 <br /><br /><br />
 
-![bg right:50% 80%](./imagery-countries.jpg)
+![bg right:50% 80%](./imagery-countries.jpg) -->
 
 ---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Thank You!
+
+- oliver.wipfli@leichteralsluft.ch
+- Get a Mapterhorn sticker or key chain after the talk...
