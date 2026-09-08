@@ -37,7 +37,9 @@ style: |
 
 ## Mapterhorn Terrain and Imagery
 
-State of the Map Paris, Aug 28th, 2026
+Open Visualization Collaborator Summit 2026
+
+Zürich &middot; Sep 10th, 2026
 
 Oliver Wipfli
 
@@ -157,6 +159,54 @@ Oliver Wipfli
 ![bg 90%](./aggregation-example-path.svg)
 
 ---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Rounding
+
+- Terrarium: elevation = 256 * red + green + blue / 256 - 2 ** 15
+- zoom 19:
+  - dx = 0.15
+  - dh = 1 / 256
+- zoom 18:
+  - dx = 0.3
+  - dh = 2 / 256
+- zoom 17: ...
+
+<br /><br /><br />
+
+![bg right:50% 100%](./rounding-angle-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Rounding
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 75%](./rounding-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Hardware Requirements
+
+### CPU
+- Total number of tiles: 155M
+- WebP lossless encoding ~200 ms per tile -> 359 days
+- With 32 threads -> 11 days for WebP encoding alone, add 50% for reprojection and merging
+
+### RAM
+- Only 200 MiB per thread -> 6.25 GiB for 32 threads
+- Tune down GDAL_CACHEMAX and GDAL_MAX_DATASET_POOL_SIZE
+
+<br /><br />
+
+---
+
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
 ## Output
@@ -175,6 +225,18 @@ Oliver Wipfli
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
+## Hosting
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 75%](./cloudflare-workers-path.svg)
+
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
 ## Usage
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -188,7 +250,7 @@ Oliver Wipfli
 ## Users
 
 - Media
-  - ORF, SVT, zeit.de, FAZ, Seattle Times
+  - ORF, SVT, zeit.de, FAZ, Seattle Times, The Guardian
 - Routing
   - GraphHopper
 - Outdoor
