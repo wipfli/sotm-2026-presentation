@@ -31,17 +31,34 @@ style: |
     bottom: -10px;
     width: 300px;
   }
+
+  .footer-image-logo-only {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 125px;
+  }
 ---
 
 ![bg left:40% 80%](./mapterhorn-icon-grid.svg)
 
 ## Mapterhorn Terrain and Imagery
 
-Open Visualization Collaborator Summit 2026
+CNG Zürich 2026
 
-Zürich &middot; Sep 10th, 2026
+Zürich &middot; Oct 29th, 2026
 
 Oliver Wipfli
+
+---
+
+<img src="mapterhorn-icon-grid.svg" class="footer-image-logo-only"/>
+
+<!-- ## Usage
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> -->
+
+![bg 75%](./servers.jpg)
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -81,7 +98,7 @@ Oliver Wipfli
 
 ![bg 90%](./timeline-path.svg)
 
----
+<!-- ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
 ## Outline
@@ -91,7 +108,7 @@ Oliver Wipfli
 - Output and Usage
 - Funding and Governance
 - Contributing
-- Outlook
+- Outlook -->
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -121,7 +138,7 @@ Oliver Wipfli
 - Pack GeoTiffs, license, and metadata into a tarball
 - Normalized tarballs available for download at <a href="https://mapterhorn.com/attribution">mapterhorn.com/attribution</a>
 
----
+<!-- ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
 ## Aggregation
@@ -186,7 +203,7 @@ Oliver Wipfli
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-![bg 75%](./rounding-path.svg)
+![bg 75%](./rounding-path.svg) -->
 
 ---
 
