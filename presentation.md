@@ -63,20 +63,6 @@ Oliver Wipfli
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## About Me
-
-- Oliver Wipfli
-- Based in Zürich, Switzerland
-- Consultant in Maps and Location Technology
-- Email: oliver.wipfli@leichteralsluft.ch
-- GitHub: https://github.com/wipfli
-- LinkedIn: <a href="https://www.linkedin.com/in/oliver-wipfli-562258210/">oliver-wipfli-562258210</a>
-
-![bg right:40% 60%](./oliver-wipfli.png)
-
----
-<img src="mapterhorn-logo-main.svg" class="footer-image" />
-
 ## About Mapterhorn
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -91,12 +77,26 @@ Oliver Wipfli
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
+## About Me
+
+- Oliver Wipfli
+- Based in Zürich, Switzerland
+- Consultant in Maps and Location Technology
+- Email: oliver.wipfli@leichteralsluft.ch
+- GitHub: https://github.com/wipfli
+- LinkedIn: <a href="https://www.linkedin.com/in/oliver-wipfli-562258210/">oliver-wipfli-562258210</a>
+
+![bg right:40% 60%](./oliver-wipfli.png)
+
+<!-- ---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
 ## History
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-![bg 90%](./timeline-path.svg)
+![bg 90%](./timeline-path.svg) -->
 
 <!-- ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -109,18 +109,83 @@ Oliver Wipfli
 - Funding and Governance
 - Contributing
 - Outlook -->
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Data Providers
+
+- Global: Copernicus 30 m resolution
+- Local: High-resolution Lidar
+- Start with Switzerland...
+
+<br /><br /><br />
+
+![bg right:50% 80%](./europe-coverage.jpg)
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Input
+## Germany
+
+- DGM1, 1 meter per pixel, entire country
+- But: EUR 8000
+
+<br /><br /><br />
+
+![bg right:50% 80%](./germany.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## 16 Bundesländer
+
+- One by one...
+- Best: file lists (STAC, meta4, atom)
+- Worst: click to download
+
+<br /><br /><br />
+
+![bg right:50% 80%](./desh.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Sweden
+
+- Public STAC API
+  - But rate limited
+  - 1 request per IP
+  - 70,000 tifs
+  - 24 hours to read STAC
+- Download password protected
+  - Credentials via bad platform
+  - Took 10 emails to setup
+
+<br /><br /><br />
+
+![bg right:50% 80%](./se.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Denmark
+
+- Password protected FTP
+- Credentials via good platform
+
+<br /><br /><br />
+
+![bg right:50% 80%](./dk.jpg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Global Coverage
 
 - Global: Copernicus 30 m resolution
 - Local: High-resolution Lidar
 - 70 data producers
-- 18 TiB total input data, shared as tarballs
-- <a href="https://mapterhorn.com/attribution">mapterhorn.com/attribution</a>
-- License CC-BY "or less"
+- CC-BY "or less"
 
 <br /><br /><br />
 
@@ -129,14 +194,60 @@ Oliver Wipfli
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Input Normalization
+## Hierarchy of Terrain Data Formats
 
-- Download from geoportal
-- Store LICENSE.pdf and metadata
-- Set consistent projection and NoData value
-- Store as GeoTiffs with unified compression and internal tiling
-- Pack GeoTiffs, license, and metadata into a tarball
-- Normalized tarballs available for download at <a href="https://mapterhorn.com/attribution">mapterhorn.com/attribution</a>
+1. TXT
+2. TXT in Zipfile
+3. TIF uncompressed
+4. TIF uncompressed in Zipfile
+5. TIF compressed
+6. TIF compressed with nodata, projection, internal tiling
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Mapterhorn Output: Source tarballs
+
+- Source tarballs with:
+  - normalized TIFs
+  - license
+  - metadata
+- 151 tarballs
+- 18 TiB
+
+![bg right:50% 80%](./attribution.jpg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Mapterhorn Output: PMTiles
+
+- Problem 1: S3 objects max 5 TiB
+- Problem 2: variable resolution
+
+<br /><br /><br />
+
+![bg right:50% 80%](./switzerland.jpg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Mapterhorn Output: PMTiles
+
+- planet.pmtiles:
+  - global
+  - zoom 0 to 12
+- 6-x-y.pmtiles:
+  - local
+  - zoom 13+
+- 11.8 TiB, 458 files
+
+<br /><br /><br />
+
+![bg right:50% 80%](./pyramid-path.svg)
+
 
 <!-- ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -205,7 +316,7 @@ Oliver Wipfli
 
 ![bg 75%](./rounding-path.svg) -->
 
----
+<!-- ---
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
@@ -236,20 +347,20 @@ Oliver Wipfli
 
 <br /><br /><br />
 
-![bg right:50% 80%](./pyramid-path.svg)
+![bg right:50% 80%](./pyramid-path.svg) -->
 
 ---
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Hosting
+## tiles.mapterhorn.com
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ![bg 75%](./cloudflare-workers-path.svg)
 
-
+<!-- 
 ---
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -271,7 +382,17 @@ Oliver Wipfli
 - Routing
   - GraphHopper
 - Outdoor
-  - Komoot, outdooractive
+  - Komoot, outdooractive -->
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Governance
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 50%](./governance.svg)
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -283,15 +404,7 @@ Oliver Wipfli
 
 ![bg 90%](./sponsors-path.svg)
 
----
-<img src="mapterhorn-logo-main.svg" class="footer-image" />
 
-## Governance
-
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-![bg 50%](./governance.svg)
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
@@ -313,13 +426,12 @@ Oliver Wipfli
 - Challenges: 
   - 10x more data (100+ TiB)
   - Updates more frequently
-- Maintenance, maintenance, maintenance
 
 <br /><br /><br />
 
 ![bg right:50% 80%](./imagery-path.svg)
 
-<!-- ---
+---
 
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
@@ -331,12 +443,95 @@ Oliver Wipfli
 - First release still in 2026
 <br /><br /><br />
 
-![bg right:50% 80%](./imagery-countries.jpg) -->
+![bg right:50% 80%](./imagery-countries.jpg)
 
 ---
 <img src="mapterhorn-logo-main.svg" class="footer-image" />
 
 ## Thank You!
 
-- oliver.wipfli@leichteralsluft.ch
-- Get a Mapterhorn sticker or key chain after the talk...
+- Happy to chat: oliver.wipfli@leichteralsluft.ch
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Aggregation
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 90%](./aggregation-a-path.svg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Aggregation
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 90%](./aggregation-b-path.svg)
+
+---
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Aggregation
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 90%](./aggregation-c-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+
+![bg 90%](./aggregation-example-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Rounding
+
+- Terrarium: elevation = 256 * red + green + blue / 256 - 2 ** 15
+- zoom 19:
+  - dx = 0.15
+  - dh = 1 / 256
+- zoom 18:
+  - dx = 0.3
+  - dh = 2 / 256
+- zoom 17: ...
+
+<br /><br /><br />
+
+![bg right:50% 100%](./rounding-angle-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Rounding
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+![bg 75%](./rounding-path.svg)
+
+---
+
+<img src="mapterhorn-logo-main.svg" class="footer-image" />
+
+## Hardware Requirements
+
+### CPU
+- Total number of tiles: 155M
+- WebP lossless encoding ~200 ms per tile -> 359 days
+- With 32 threads -> 11 days for WebP encoding alone, add 50% for reprojection and merging
+
+### RAM
+- Only 200 MiB per thread -> 6.25 GiB for 32 threads
+- Tune down GDAL_CACHEMAX and GDAL_MAX_DATASET_POOL_SIZE
+
+<br /><br />
